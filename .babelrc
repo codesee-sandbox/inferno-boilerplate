@@ -15,6 +15,7 @@
             {
                 "imports": true
             }
-        ]
+        ],
+        ["@codesee/instrument", { "hosted": true }],
     ]
 }

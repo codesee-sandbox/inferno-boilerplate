@@ -4,7 +4,7 @@
   "description": "A basic boilerplate to get you started with Inferno + Inferno Router + JSX",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --quiet --config webpack.conf.js --host 0.0.0.0",
+    "start": "webpack-dev-server --config webpack.conf.js --host 0.0.0.0",
     "build": "webpack -p --config webpack.conf.js",
     "lint": "eslint src"
   },
@@ -28,6 +28,8 @@
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-jsx": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "@codesee/babel-plugin-instrument": "^0.33.3",
+    "@codesee/tracker": "^0.33.3",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-inferno": "^6.0.5",
@@ -41,7 +43,6 @@
   },
   "dependencies": {
     "history": "^4.9.0",
-    "inferno": "^7",
     "inferno-component": "^7",
     "inferno-create-element": "^7",
     "inferno-router": "^7",
